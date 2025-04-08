@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Api</title>
+    <script type="text/javascript" src="js/consultar.js"></script>
 </head>
 <body>
     <h1>Consulta de CEP - com API</h1>
     <input type="text" id="cep" placeholder="Digite o CEP">
-    <button onclick="ConsultarCEP()">Consultar</button>
+    <button onclick="ConsultarCep()">Consultar</button>
 
     <div id="resultado">
         <p><strong>Rua:</strong><span id="logradouro"></span></p>
-        <p><strong>Bairro:</strong><span id="Bairro"></span></p>
+        <p><strong>Bairro:</strong><span id="bairro"></span></p>
         <p><strong>Cidade:</strong><span id="cidade"></span></p>
         <p><strong>Estado:</strong><span id="estado"></span></p>
     </div>
